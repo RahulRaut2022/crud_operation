@@ -12,3 +12,10 @@ CREATE TABLE employee (
     age int,
     PRIMARY KEY (id)
 );
+
+endpoints
+
+save-employee => http://localhost:5052/api/employee/add
+getAll-employee => http://localhost:5052/api/employee/get
+update-employee => http://localhost:5052/api/employee/{id}
+delete-employee => http://localhost:5052/api/employee/get
